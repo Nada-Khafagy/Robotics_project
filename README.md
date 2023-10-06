@@ -1,14 +1,12 @@
 # Robotics_project
 
-welcome to the slamDunk team!!
-
 ## Project Description
 
 we will implement a robot that plays basketball :D 
 
 
-## Quadcopter Project Team - SQuadCopter 
-This is the official team page for the Basketball whole project. Meet our dedicated team members:
+## Basketball Project Team - slamDunk team
+This is the official team page for the Basketball whole team. Meet our dedicated team members:
 
 | Name              | ID       | GUC-mail               | personal E-mail        |
 |-------------------|----------|------------------------|------------------------|
