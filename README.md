@@ -26,7 +26,7 @@ This is the official team page for the Basketball whole team. Meet our dedicated
 ## To-Do List (Right hand)
 - buy 3d parts
 - circuit on fritzing
-- write reporte
+- write report
 - get the mathematical model
 
 ## To-Do List (Left hand)
