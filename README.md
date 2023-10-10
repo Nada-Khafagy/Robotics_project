@@ -21,11 +21,15 @@ This is the official team page for the Basketball whole team. Meet our dedicated
 | Kareem Hindi      | 49-3964  | Kareem.hindi          |kareem.hindi12@gmail.com |
 | Abdallah Amr      | 49-10671 |                       |                          |
 
-## To-Do List
-- check motor (15kg) compatability before purchasing.
-- circuit on fritzing
-- get the mathmatical model
 
+ 
+## To-Do List (Right hand)
+- buy 3d parts
+- circuit on fritzing
+- write reporte
+- get the mathematical model
+
+## To-Do List (Left hand)
 
 ## Project Timeline
 
