@@ -22,7 +22,7 @@ This is the official team page for the Basketball whole team. Meet our dedicated
 |-------------------|----------|------------------------|------------------------|
 | Shehab Ibrahim Mahmoud| 49-7639| shehab.abdallah      |                        |
 | Abdelfattah Gaber | 49-19487 |                        |                        |
-| Ahmed Abdulhameed | 52-24471 | ahmed.elessawy        |                         |
+| Ahmed Abdelhameed | 52-24471 | ahmed.elessawy        |                         |
 | Kareem Hindi      | 49-3964  | Kareem.hindi          |kareem.hindi12@gmail.com |
 | Abdallah Amr      | 49-10671 |                       |                          |
 
