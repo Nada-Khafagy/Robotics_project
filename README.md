@@ -14,7 +14,7 @@ This is the official team page for the Basketball whole team. Meet our dedicated
 | Dina Mohamed      | 49-18602 | dina.mohamed           |dina67724@gmail.com     |
 | Marwa Lotfy       | 49-18054 | marwa.hassan          |lotfymarwa410@gmail.com  |
 | Nada Tamer        | 49-13614 | nada.abdelhay         |nadatameer@outlook.com   |
-| ahmed mohamed sleem |49-18230| ahmed.sleem            |ahmedsleem.mail@gmail.com|
+| Ahmed Mohamed Sleem |49-18230| ahmed.sleem            |ahmedsleem.mail@gmail.com|
 | Karim Emad Adam     |49-17245 |karim.adam             |                        |
 
 ## Left Arm 
