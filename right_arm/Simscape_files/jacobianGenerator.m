@@ -38,3 +38,4 @@ qs = [q1; q2; q3;q4];
 j_v = jacobian(fs,qs)
 j = [j_v; j_w]
 j = simplify(j)
+pinv(j(1:3,:))
