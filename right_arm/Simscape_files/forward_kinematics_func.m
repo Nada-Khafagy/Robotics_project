@@ -17,10 +17,14 @@ T01=transformation_func(theta1,d1,a1,alpha1);
 T12=transformation_func(theta2,d2,a2,alpha2);
 T23=transformation_func(theta3,d3,a3,alpha3);
 T34=transformation_func(theta4,d4,a4,alpha4);
-
+% T4end=[1 0 0 0;
+%        0 1 0 0;
+%        0 0 1 -0.004;
+%        0 0 0 1]
 T04=T01*T12*T23*T34;
 x = T04(1,4);
 y = T04(2,4);
 z = T04(3,4);
-position = T04*[0;0;0;1]
+position = [x;y;z]
+
 end
