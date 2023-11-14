@@ -1,10 +1,10 @@
 function position= forward_kinematics_func()
 syms q1 q2 q3 q4
-syms l1 l2 l3 l4
-% l1 = 0.02888;
-% l2 = 0.02659;
-% l3 = 0.1224;
-% l4 = 0.15;
+%syms l1 l2 l3 l4
+l1 = 0.02888;
+l2 = 0.0266;
+l3 = 0.1224;
+l4 = 0.15;
 
 %Given Dimensions
 theta1= q1;      d1=-l1;      a1=0;        alpha1=-90;
@@ -22,5 +22,5 @@ T04=T01*T12*T23*T34;
 x = T04(1,4);
 y = T04(2,4);
 z = T04(3,4);
-position = T04*[0;0;0;1]
+position = T04*[0;0;0;1];
 end
