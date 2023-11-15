@@ -8,19 +8,19 @@ F1 = forward_kinematics_func();
 FTotal = [F1(1);F1(2);F1(3)];
 %getting F
 F = FTotal - X;
+%getting F derivative with respect to qs symbolically
+J = jacobian(F,qs);
 %error
 maxError = ones(3,1)*10^-5;
 errF = ones(3,1)*10^10;
 i = 0;
 while errF > maxError
+    J_subs = subs(J,qs,q0);
     F_subs = subs(F,qs,q0);
-    %getting jacobian inverse
     J_inv = inverse_jacobian_matrix(q0);
-    %new joints angles
+    
     qn = (double(q0 - (J_inv*F_subs)));
-    %new F
     F_subs = subs(F,qs,qn);
-    %current error
     errF = double(abs(F_subs));
     q0 = qn;
     i = i+1;
