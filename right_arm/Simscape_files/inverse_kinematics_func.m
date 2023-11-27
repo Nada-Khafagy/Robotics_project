@@ -1,7 +1,8 @@
-%qn = inversekinematicsfunc([45;30;40;70],[0.231;0.07834;-0.05057])
-function qn  = inverse_kinematics_func(q0,X)
+qn = inversekinematicsfunc([0.231;0.07834;-0.05057],[45;30;40;70])
+function qn  = inversekinematicsfunc(X, q0)
 syms q1 q2 q3 q4
 qs = [q1; q2; q3; q4];
+%q0 = [45;30;40;70];
 qn = zeros(4,1);
 %symbolic position
 F1 = forward_kinematics_func();

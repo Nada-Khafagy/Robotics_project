@@ -1,0 +1,22 @@
+%Task_Space = tasktraj([0.231 0.07834 -0.05057], [0 0.2 -0.05057], 3, 0.1);
+function Task_Space = task_traj(X0, Xf, Tf, Ts)
+time = 0;
+x0=X0(1);
+y0=X0(2);
+z0=X0(3);
+xf=Xf(1);
+yf=Xf(2);
+zf=Xf(3);
+Task_Space = [inverse_kinematics_func([x0;y0;z0])];
+%Task_Space = [];
+while (time < Tf)
+    x = x0 + ((xf-x0)/Tf)*time
+    y = y0 + ((yf-y0)/Tf)*time;
+    z = z0 + ((zf-z0)/Tf)*time;
+    time = time + Ts;
+    Task_Space = [Task_Space; inverse_kinematics_func([x;y;z])];
+    %Task_Space = [Task_Space; time' x' y' z'];
+end
+plot(Task_Space(:,1),Task_Space(:,3))
+end
+
