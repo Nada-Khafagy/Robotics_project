@@ -1,5 +1,5 @@
-Task_Space = tasktraj([0.231 0.0 -0.03], [0.1 -0.2 0.055], 3, 0.1,[49.9;29.9;19.9;59.9]);
-Task_Space=Task_Space'
+Task_Space = tasktraj([0.231 0.07834 -0.05057], [0 0.2 -0.05057], 3, 0.1,[49.9;29.9;19.9;59.9]);
+Task_Space = Task_Space'
 % Iterate through each column
 for col = 1 : size(Task_Space,2)
     % Extract values from the column
@@ -9,6 +9,7 @@ for col = 1 : size(Task_Space,2)
     fprintf('%.2f, ', column_values(1:end-1));
     fprintf('%.2f\n', column_values(end));
 end
+
 function Task_Space = tasktraj(X0, Xf, Tf, Ts,q0)
 time = 0;
 x0=X0(1);
