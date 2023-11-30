@@ -1,16 +1,7 @@
-Task_Space = tasktraj([0.231 0.07834 -0.05057], [0 0.2 -0.05057], 3, 0.1,[49.9;29.9;19.9;59.9]);
-Task_Space = Task_Space'
-% Iterate through each column
-for col = 1 : size(Task_Space,2)
-    % Extract values from the column
-    column_values = Task_Space(:, col);
-    
-    % Print values with commas
-    fprintf('%.2f, ', column_values(1:end-1));
-    fprintf('%.2f\n', column_values(end));
-end
+%Task_Space = tasktraj([0.231 0.07834 -0.05057], [0 0.2 -0.05057], 3, 0.1,[49.9;29.9;19.9;59.9]);
+%Task_Space = Task_Space'
 
-function Task_Space = tasktraj(X0, Xf, Tf, Ts,q0)
+function Task_Space = task_traj(X0, Xf, Tf, Ts,q0)
 time = 0;
 x0=X0(1);
 y0=X0(2);
@@ -63,5 +54,37 @@ title('Y');
 subplot(3, 1, 3); % 2 rows, 1 column, select the first subplot
 plot(time_vec, trajectory(3, :));
 title('Z');
+
+% Iterate through each column
+for col = 1 : size(Task_Space,2)
+    % Extract values from the column
+    column_values = Task_Space(:, col);
+    
+    % Print values with commas
+    fprintf('%.2f, ', column_values(1:end-1));
+    fprintf('%.2f\n', column_values(end));
+end
+% Define the initial and final points
+xi = [0.231, 0.07834, -0.05057];
+xf = [0, 0.2, -0.05057];
+
+% Create a figure
+figure;
+
+% Plot the line segment in 3D
+plot3([xi(1), xf(1)], [xi(2), xf(2)], [xi(3), xf(3)], 'o-');
+
+% Set axis labels
+xlabel('X-axis');
+ylabel('Y-axis');
+zlabel('Z-axis');
+
+% Title for the plot
+title('Straight line trajectory');
+
+% Add a grid for better visualization
+grid on;
+axis([-0.1, 0.3, 0, 0.3, -0.1, 0.1]);
+
 end
 
