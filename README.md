@@ -37,14 +37,14 @@ This is the official team page for the Basketball whole team. Meet our dedicated
 
 - ~~registration --> 3/10~~
 - ~~Milestone 1 --> 11/10~~
-- ~~stone 2 --> 25/10~~
-- ~~stone 3 --> 15/11~~
-- ~~stone 4 --> 29/11~~
+- ~~Milestone 2 --> 25/10~~
+- ~~Milestone 3 --> 15/11~~
+- ~~Milestone 4 --> 29/11~~
 - ~~Milestone 5 --> 21/12~~
 - DONE!!!!!!!!!!!!
 
 ## Video of working hardware
-![Robotic arm throwing a basket ball](RightLeftArms/media/Basketball player robotic arm.gif)
+![Robotic arm throwing a basket ball](RightLeftArms/media/Basketball_player_robotic_arm.gif)
 
 ## Contact Information
 If you need to get in touch with our team, please feel free to reach out to us via the uni emails listed above by adding @student.guc.edu.eg or using personal mail.
